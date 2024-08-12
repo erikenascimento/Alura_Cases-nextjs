@@ -4,12 +4,12 @@ function Title({ children, as }) {
 	const Tag = as;
 	return (
 		<>
-			<Tag>{children}</Tag>;
+			<Tag>{children}</Tag>
 			<style jsx>
 				{`
 					s{Tag} {
-						color: red;
-                        font-family: sans-serif;
+						color: red
+                        font-family: sans-serif
 					}
 				`}
 			</style>
