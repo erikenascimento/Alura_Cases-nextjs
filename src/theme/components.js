@@ -57,7 +57,7 @@ export function Box({
 	const Tag = as || "div";
 
 	return (
-		<React.Fragment>
+		<>
 			<Tag
 				{...props}
 				className={`${props.className ? props.className : ""} ${
@@ -127,7 +127,7 @@ export function Box({
 					}
 				}
 			`}</style>
-		</React.Fragment>
+		</>
 	);
 }
 
