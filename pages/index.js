@@ -5,7 +5,7 @@ export default function HomePage() {
 		<div>
 			<h1>Alura Cases - Home</h1>
 			<Link href="/faq">
-				<a>Ir para o FAQ</a>
+				<p>Ir para o FAQ</p>
 			</Link>
 		</div>
 	);
